@@ -17,6 +17,7 @@
 @property(nonatomic) CGFloat screenScale;
 @property(nonatomic, copy) NSString *preferredContentSizeCategory;
 @property(nonatomic, strong) NSDictionary *cachedImages;
+@property(nonatomic, copy) NSString *systemVersion;
 
 @end
 

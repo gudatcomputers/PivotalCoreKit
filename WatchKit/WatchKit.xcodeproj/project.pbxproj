@@ -12,6 +12,7 @@
 		2681A5B11AE0906600B0B753 /* WKInterfaceDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2681A5AF1AE0906600B0B753 /* WKInterfaceDevice.m */; };
 		2681A5B21AE0906600B0B753 /* WKInterfaceDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2681A5B01AE0906600B0B753 /* WKInterfaceDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2681A5D31AE0991C00B0B753 /* WKInterfaceDeviceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2681A5D21AE0991C00B0B753 /* WKInterfaceDeviceSpec.mm */; };
+		603A34F01B8F9C1E00A35F83 /* WKExtensionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 603A34EF1B8F9C1E00A35F83 /* WKExtensionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE03A0391A391C5900AD4964 /* corgi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE03A0381A391C5900AD4964 /* corgi.jpeg */; };
 		AE0FDC801A6ECB71006C781D /* CustomCategoryNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FDC7F1A6ECB71006C781D /* CustomCategoryNotificationController.m */; };
 		AE120D211B55865B00BAD2BC /* Rootless.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE120D201B55865B00BAD2BC /* Rootless.storyboard */; };
@@ -208,6 +209,7 @@
 		2681A5AF1AE0906600B0B753 /* WKInterfaceDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKInterfaceDevice.m; sourceTree = "<group>"; };
 		2681A5B01AE0906600B0B753 /* WKInterfaceDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKInterfaceDevice.h; sourceTree = "<group>"; };
 		2681A5D21AE0991C00B0B753 /* WKInterfaceDeviceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = WKInterfaceDeviceSpec.mm; path = Specs/WatchKit/WKInterfaceDeviceSpec.mm; sourceTree = SOURCE_ROOT; };
+		603A34EF1B8F9C1E00A35F83 /* WKExtensionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKExtensionDelegate.h; sourceTree = "<group>"; };
 		AE03A0381A391C5900AD4964 /* corgi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi.jpeg; sourceTree = "<group>"; };
 		AE0FDC7E1A6ECB71006C781D /* CustomCategoryNotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCategoryNotificationController.h; sourceTree = "<group>"; };
 		AE0FDC7F1A6ECB71006C781D /* CustomCategoryNotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCategoryNotificationController.m; sourceTree = "<group>"; };
@@ -526,6 +528,7 @@
 				B83C32031A4CD9BF0021F1A4 /* WKUserNotificationInterfaceController+Spec.h */,
 				DE99C8C67949C094218A82C2 /* PCKWKInterfaceObjectProvider.m */,
 				DE99C21473753B19AF90BB5F /* PCKWKInterfaceObjectProvider.h */,
+				603A34EF1B8F9C1E00A35F83 /* WKExtensionDelegate.h */,
 			);
 			path = WatchKit;
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 				2681A5B21AE0906600B0B753 /* WKInterfaceDevice.h in Headers */,
 				267B25B21AD86BDB00440CD2 /* NSInvocation+InvocationMatching.h in Headers */,
 				B83C32181A4CD9BF0021F1A4 /* WKInterfaceMap.h in Headers */,
+				603A34F01B8F9C1E00A35F83 /* WKExtensionDelegate.h in Headers */,
 				B83C320E1A4CD9BF0021F1A4 /* WKInterfaceDate+Spec.h in Headers */,
 				B83C32221A4CD9BF0021F1A4 /* WKInterfaceSwitch.h in Headers */,
 				B83C32091A4CD9BF0021F1A4 /* WKInterfaceButton+Spec.h in Headers */,

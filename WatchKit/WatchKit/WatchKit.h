@@ -29,3 +29,6 @@
 
 #import "PCKInterfaceControllerLoader.h"
 #import "PCKFakeSegue.h"
+
+#pragma mark - WatchOS2
+#import "WKExtensionDelegate.h"

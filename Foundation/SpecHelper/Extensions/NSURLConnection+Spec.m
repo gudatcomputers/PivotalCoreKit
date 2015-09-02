@@ -14,6 +14,15 @@ static char ASSOCIATED_DELEGATE_KEY;
 static char REQUEST_IS_LIVE_KEY;
 static char ASSOCIATED_SYNCHRONOUS_CONNECTION;
 
+@interface PCKNullURLAuthenticationChallengeSender : NSObject <NSURLAuthenticationChallengeSender> @end
+@implementation PCKNullURLAuthenticationChallengeSender
+
+- (void)useCredential:(NSURLCredential *)credential forAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {}
+- (void)continueWithoutCredentialForAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {}
+- (void)cancelAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {}
+
+@end
+
 @interface NSURLConnection (Spec_Private)
 
 - (id)originalInitWithRequest:(NSURLRequest *)request
@@ -258,7 +267,7 @@ static PSHKFakeOperationQueue *connectionsQueue__;
                                                                                         previousFailureCount:1
                                                                                              failureResponse:nil
                                                                                                        error:nil
-                                                                                                      sender:nil]
+                                                                                                      sender:[PCKNullURLAuthenticationChallengeSender new]]
                                                autorelease];
 
     [[self delegate] connection:self didReceiveAuthenticationChallenge:challenge];
